@@ -15,6 +15,6 @@ urlpatterns = [
     path('menu-items/<int:pk>', SingleMenuItemView.as_view()),
     path('urls/', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    path('bookingAPI/', include(routerr.urls)),
+    path('bookings /', include(routerr.urls)),
     path('api-token-auth', obtain_auth_token),
 ]

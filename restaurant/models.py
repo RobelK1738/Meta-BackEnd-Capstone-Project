@@ -16,13 +16,4 @@ class MenuItems(models.Model):
     Inventory = models.IntegerField()
     
     def __str__(self):
-        return self.Title
-    
-class SingleMenuItem(models.Model):
-    name = models.CharField(max_length=255)
-    ingredients = models.CharField(max_length=255)
-    
-    def __str__(self):
-        return self.name
-
-    
+        return self.Title 

@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "restaurant",
+    "website",
+    "api",
     "rest_framework",
     "rest_framework.authtoken",
 ]
@@ -57,7 +58,7 @@ ROOT_URLCONF = "LittleLemon.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": ['templates'],
+        "DIRS": ['/Users/robelmelaku/Desktop/OtherCourses/Meta-Backend-Certificate/8-Capstone/Meta-BackEnd-Capstone-Project/website/templates'],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
